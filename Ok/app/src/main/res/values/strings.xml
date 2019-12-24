@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ok</string>
+    <string name="hello">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+    </string>
+</resources>
