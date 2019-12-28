@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="15dp"
+    android:stretchColumns="*">
+    <TableRow
+        android:background="@android:color/holo_green_dark">
+        <TextView
+            android:gravity="center"
+            android:layout_span="1"
+            android:padding="10dp"
+            android:layout_column="0"
+            android:text="Number"
+            android:textStyle="bold"
+            android:textSize="18sp">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Amount">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:text="Selection"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_column="2">
+        </TextView>
+    </TableRow>
+</TableLayout>
